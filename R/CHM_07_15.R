@@ -24,6 +24,7 @@ dtmgrd = grid_terrain(groundlidar15, method = "knnidw", k = 6)
 plot(groundlidar15)
 plot(dtmgrd)
 
+<<<<<<< HEAD
 #### -learning function ####
 arth.mean <- function(x) {
   # arithmatic mean
@@ -35,6 +36,8 @@ arth.mean <- function(x) {
 arth.mean(1:20)
 
 
+=======
+>>>>>>> 3e9c3d1889529d9609547eb9068c25c4f1e3910a
 #### -saving the output of Console ####
 con <- file("test.log")
 sink(con, append=TRUE)
@@ -60,10 +63,13 @@ sink(type = "message")
 sink()
 file.show("all.Rout")
 
+<<<<<<< HEAD
 sink(file ="F:\\R_Learning\\TestData\\CHM\\data\\save.txt")
 
 sink()
 
+=======
+>>>>>>> 3e9c3d1889529d9609547eb9068c25c4f1e3910a
 install.packages("all.Rout")
 
 
